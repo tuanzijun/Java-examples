@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="169.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jisuanqi.Controller">
+   <children>
+      <Pane layoutX="33.0" layoutY="28.0" prefHeight="113.0" prefWidth="534.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="29.0" prefWidth="95.0" text="Number1">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="193.0" layoutY="13.0" prefHeight="27.0" prefWidth="101.0" text="Number2">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="378.0" layoutY="13.0" prefHeight="19.0" prefWidth="95.0" text="result">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Button fx:id="bt1" layoutX="14.0" layoutY="57.0" mnemonicParsing="false" onMouseClicked="#addbt" prefHeight="42.0" prefWidth="120.0" text="Add" />
+            <Button fx:id="bt2" layoutX="147.0" layoutY="57.0" mnemonicParsing="false" onMouseClicked="#subtractbt" prefHeight="42.0" prefWidth="120.0" text="Subtract" />
+            <Button fx:id="bt3" layoutX="282.0" layoutY="57.0" mnemonicParsing="false" onMouseClicked="#multiplybt" prefHeight="42.0" prefWidth="120.0" text="Multiply" />
+            <Button fx:id="bt4" layoutX="413.0" layoutY="57.0" mnemonicParsing="false" onMouseClicked="#dividebt" prefHeight="42.0" prefWidth="120.0" text="Divide" />
+            <TextField fx:id="t1" layoutX="109.0" layoutY="13.0" prefHeight="29.0" prefWidth="84.0" />
+            <TextField fx:id="t2" layoutX="282.0" layoutY="14.0" prefHeight="29.0" prefWidth="84.0" />
+            <TextField fx:id="result" editable="false" layoutX="436.0" layoutY="14.0" prefHeight="29.0" prefWidth="84.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
